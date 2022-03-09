@@ -7,6 +7,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <style >
+      .golge{
+        -moz-box-shadow:5px 5px 15px 3px #666;
+        -webkit-box-shadow: 5px 5px 15px 3px #666;
+        box-shadow: 5px 5px 15px 3px #666;
+        }
+       .ıcgolge {
+          -moz-box-shadow:inset 0 0 20px #000000;
+          -webkit-box-shadow: inset 0 0 20px #000000;
+          box-shadow: inset 0 0 20px #000000;
+          }
+          .mgolge{
+            -moz-box-shadow:5px 5px 15px 3px #9900ff;
+            -webkit-box-shadow: 5px 5px 15px 3px #9900ff;
+            box-shadow: 5px 5px 15px 3px #9900ff;
+            }
       .sol-ust{
     
         border: 2px solid #9900ff;
@@ -26,7 +41,9 @@
         margin: 20px;
         float: bottom;
 
-      
+        -moz-box-shadow:5px 5px 15px 3px #9900ff;
+        -webkit-box-shadow: 5px 5px 15px 3px #9900ff;
+        box-shadow: 5px 5px 15px 3px #9900ff;
         }
         .resim{
           border-radius: 50%;
@@ -81,24 +98,24 @@ if (form.kadi.value=="Pınar"){
     <div class="container-fluid"> 
       <div class="row">
         <div class="col-md-4"></div>
-        <div class="col-md-4 bg-light mt-5 rounded height: 100vh; ">
+        <div class="col-md-4 bg-light mt-5 rounded height: 100vh; ıcgolge">
 
 <br>
 <center><font color="9900ff "><h1>Hoşgeldin Sevgilim</h1> </font></center>
-<center><a target="_blank" ><img height="200" alt="" width="150" src="IMG_1520.jpg" /></a></center>
+<center><a target="_blank"  ><img height="200" alt="" width="150" class="mgolge" src="IMG_1520.jpg" /></a></center>
 <br>
-<center> <img class="resim" src="a.png" alt="Resim"><font color="9900ff "><b> -</b> </font>   <img class="resim" src="a.png" alt="Resim"><font color="9900ff "><b> -</b>  <img class="resim" src="a.png" alt="Resim"></center>
+<center> <img class="resim golge" src="a.png" alt="Resim"><font color="9900ff " ><b> -</b> </font>   <img class="resim golge" src="a.png" alt="Resim"><font color="9900ff "><b> -</b>  <img class="resim golge" src="a.png" alt="Resim"></center>
 <br>
 <center><font font="weight-bold" size="4" color="9900ff"><b>Giriş Yap Güzel Kızım</font></center>
   
     
           <label class="mt-5 pl-5 font-weight-bold"></label>
           <form class="" method="POST" action="">
-          <input type="text" name="kadi" class="form-control form-control-lg mb-2" placeholder="Güzel Adını Bağışlarmısın ?">
-          <input type="text" name="sifre" class="form-control form-control-lg mb-2  " placeholder="Soyadınız ?">
+          <input type="text" name="kadi" class="form-control form-control-lg mb-2 mgolge " placeholder="Güzel Adını Bağışlarmısın ?">
+          <input type="text" name="sifre" class="form-control form-control-lg mb-2 mgolge " placeholder="Soyadınız ?">
 
          <center> <input style="background-color:#9900ff;" type="button" value="Giriş Yap" onClick="display(this.form)" class="bnt btn-info form-control mb-5 sol-ust"/></center>
-         <center><font font="weight-bold" size="2" color="9900ff"><a>Soyadınızı mı unuttunuz ?(Benimkini alabilirsiniz)</a></font></center>
+         <center><font font="weight-bold" size="2" color="9900ff" ><a>Soyadınızı mı unuttunuz ?(Benimkini alabilirsiniz)</a></font></center>
          <!-- <input type="submit" name="" value="Login" onClick="display(this.form)" class="bnt btn-info form-control mb-5 "/>-->
 </form> 
 <p class="bg-secondary rounded text-white"></p>
